@@ -1,0 +1,12 @@
+.formControl {
+  width: 40%;
+  margin: 65px 0 !important;
+  padding: 3px !important;
+  border-radius: 5px;
+  background-color: white !important;
+}
+
+.root {
+  background-color: white !important;
+  border: none !important;
+}

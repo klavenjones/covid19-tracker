@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+
+body {
+  background-color: #fdfffc;
+  color: rgb(1, 22, 39);
+  font-family: "Viga", sans-serif;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headline {
+  color: #fdfffc;
+  font-size: 20px !important;
+}
+
+.image {
+  width: 370px;
+  margin: 75px 0 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
+}

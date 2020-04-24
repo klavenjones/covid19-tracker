@@ -1,0 +1,42 @@
+.container {
+  margin: 50px 0;
+}
+
+.card {
+  margin: 0 2% !important;
+  padding: 2% !important;
+  width: 450px !important;
+  color: rgb(253, 255, 252) !important;
+}
+
+.headingInfected {
+  color: rgba(65, 234, 212, 1) !important;
+  font-family: "Viga", sans-serif !important;
+}
+
+.headingRecovered {
+  color: rgba(7, 59, 76, 1) !important;
+  font-family: "Viga", sans-serif !important;
+}
+
+.headingDeaths {
+  color: rgb(255, 146, 146) !important;
+  font-family: "Viga", sans-serif !important;
+}
+
+.infected {
+  background-color: rgba(17, 138, 178, 0.9) !important;
+}
+.recovered {
+  background-color: rgba(6, 214, 160, 0.9) !important;
+}
+
+.deaths {
+  background-color: rgba(231, 29, 54, 0.9) !important;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin: 3% 0 !important;
+  }
+}
